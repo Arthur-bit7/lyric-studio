@@ -1,0 +1,32 @@
+# Local environments, dependencies, downloaded models, uploads and logs
+.venv/
+venv/
+node_modules/
+.runtime/
+config.local.json
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+*.log
+coverage/
+.DS_Store
+Thumbs.db
+
+# Audio, exported lyrics and personal editing projects are never source assets.
+*.wav
+*.m4a
+*.mp3
+*.mp4
+*.aac
+*.flac
+*.ogg
+*.lrc
+*.lyrics.json
+*.bin
+*.safetensors
+
+# Local editor settings
+.vscode/
+.idea/
